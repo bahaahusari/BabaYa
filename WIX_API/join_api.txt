@@ -1,0 +1,23 @@
+
+
+Join
+
+
+Request:
+{
+	DisplayName,
+	UserName,
+	Password
+}
+
+Response:
+{
+
+ DB:{
+  	isExists: boolean,
+	msg: string (if username is exist data base or successfully)
+ },
+ err: {
+   msg: string
+ }
+}

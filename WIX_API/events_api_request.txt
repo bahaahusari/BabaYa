@@ -1,0 +1,22 @@
+
+
+update events
+
+
+Request:
+{
+  catagory,
+  Title,
+  at,
+  where
+}
+
+Response:
+{
+ success: {
+   msg: string
+ },
+ err: {
+   msg: string
+ }
+}

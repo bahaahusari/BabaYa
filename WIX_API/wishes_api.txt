@@ -1,0 +1,31 @@
+
+
+Wishes
+
+
+Request:
+{
+	EventId,
+	Catagory,
+	DateFrom,
+	DateTo,
+	Where	
+}
+
+Response:
+{
+
+ DB:{
+  	isExists: boolean,
+	msg: string (if not found in data base)
+	data:{
+  		Catagory: string,
+  		EventTitle: string,
+  		When: string/DateTime,
+		Where: string
+	}
+ },
+ err: {
+   msg: string
+ }
+}
