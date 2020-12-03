@@ -1,79 +1,127 @@
-<div class="form">
-      
-      <ul class="tab-group">
-        <li class="tab active"><a href="#signup">Sign Up</a></li>
-        <li class="tab"><a href="#login">Log In</a></li>
-      </ul>
-      
-      <div class="tab-content">
-        <div id="signup">   
-          <h1>BabaYa Sign Up for Free</h1>
-          
-          <form action="/" method="post">
-          
-          <div class="top-row">
-            <div class="field-wrap">
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-            </div>
-        
-            <div class="field-wrap">
-              <label>
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
-            </div>
-          </div>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BabaYa</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="150" height="30" class="d-inline-block align-top" alt="">
 
-          <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Set A Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          <button type="submit" class="button button-block"/>Get Started</button>
-          
-          </form>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wishes.html">Wishes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="true">About</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="join.html">Join</a>
+                    </li>
+                </ul>
+            </form>
+        </nav>
+    </header>
+
+<section class="bg-light">
+    <div class="custom-bg">
+
+        <!--<div class="center-row">-->
+                <!--<div class="row">-->
+                    <!--<div class="col position-relative">-->
+                        <!--<button type="button" class="btn btn-outline-primary btn-lg">Primary</button>-->
+                    <!--</div>-->
+                    <!--<div class="col position-relative">-->
+                        <!--<button type="button" class="btn btn-outline-primary btn-lg">Primary</button>-->
+                    <!--</div>-->
+                <!--</div>-->
+        <!--</div>-->
+        <div class="header-overlay">
+
+
+            <!--<div class="container">-->
+
+                <div class="row row-md-12 m-0">
+
+                    <div class="col-md-12">
+                        <div class="header-text text-center text-white">
+
+                        <!-- Title & Description -->
+                        <h1> Welcome To events Site</h1>
+                        <p> Built with great love!</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row row-md-12 m-0">
+
+                    <div class="col-md-3 offset-md-2">
+
+
+                        <div class="header-btns">
+                            <!-- Header buttons -->
+                            <a class="btn btn-download text-white wow fadeInLeft" href="#">Create New Event Box</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 offset-md-3">
+                        <div class="header-btns">
+                            <a class="btn btn-download text-white wow fadeInLeft" href="#">Add a Best Wish</a>
+                        </div>
+                        <div class="header-iphone">
+
+
+                            <!-- Header iPhone -->
+                            <!--<img src="img/iphone-header.png" alt = "header iphone">-->
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            <!--</div>-->
+
 
         </div>
-        
-        <div id="login">   
-          <h1>Welcome Back!</h1>
-          
-          <form action="/" method="post">
-          
-            <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
-          
-          <button class="button button-block"/>Log In</button>
-          
-          </form>
+    </div>
 
-        </div>
-        
-      </div><!-- tab-content -->
-      
-</div> <!-- /form -->
+</section>
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
