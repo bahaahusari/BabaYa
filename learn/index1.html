@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HomePage Mohamad WebSite</title>
+    <link rel="stylesheet" href="css/rtl/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!--main contner-->
+        <div class="container">
+           <!--singel row-->
+            <div class="row">
+               <!--col-left-->
+                <div class="col-sm-12 col-md-4 mb-sm-3 mb-3">
+                <h1>LOGO</h1>
+                <p>أمّا بالنسبة للنواحي النظرية فسنشرحها عند الحاجة أثناء تقدّمنا ببناء المشروع. بهذه الطريقة سنكتسب أساسًا متينًا وسريعًا في مجال تطوير الويب. سأوجّهك خلال هذا المشروع إلى روابط خارجية تُشير إلى مصادر أخرى للتوسُّع في نقاط معيّنة إن أحببت ذلك.</p>
+                <a id="butt" class="btn btn-primary btn-lg" href="#">Take a tour</a>
+                </div>
+                <!--col-right-->
+                <div class="col-sm-12 col-md-8">
+                    <img class="img-fluid rounded" src="images/home.jpg" alt="homepage logo">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="clearfix"></div>
+    
+    <section>
+    <!--main contener-->
+        <div class="container">
+        <!--singel row-->
+            <div class="row" ng-controller='mainController'>
+            
+                <!--Col full-->
+                <div class="col">
+                    <hr>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section>
+    <!--main contener-->
+        <div class="container mb-3">
+        <!--singel row-->
+            <div class="row">
+            
+                <!--Col 1-->
+                <div class="col-md-4 mb-3">
+                    <h2>RETINA READY</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                    <a class="btn btn-outline-dark" href="#">More Info</a>
+                </div>
+                
+                <!--Col 2-->
+                <div class="col-md-4 mb-3">
+                    <h2>MOBILE READY</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                    <a class="btn btn-outline-dark" href="#">More Info</a>
+                </div>
+                
+                <!--Col 4-->
+                <div class="col-md-4 mb-3">
+                    <h2>EASY LAYOUT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                    <a class="btn btn-outline-dark" href="#">More Info</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="clearfix"></div>
+    
+    <footer>
+        <!--main contener-->
+        <div class="container">
+            <!--singel row-->
+            <div class="row">
+            
+                <!--Col full-->
+                <div class="col">
+                    <p>Copyright &copy; by Mohamad Husari 2018</p>
+                </div>
+
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        //        $(document).ready( function () {
+        //            $
+        //        });
+        $(document).ready(function () {
+            $('#butt').click( function () {
+                $('#butt').hide();
+            });
+        });
+
+
+    </script>
+</body>
+</html>
